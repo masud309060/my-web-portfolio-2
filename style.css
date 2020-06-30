@@ -1,0 +1,49 @@
+    body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+    .name-highlight {
+    font-size: 50px;
+    color: #FC427B;
+    font-family: 'Ubuntu', sans-serif;
+}
+    h1 {
+    font-size: 40px;
+}
+    p {
+    color: #2d3436;
+}
+    .half-side {
+    width: 40%;
+    float: left;
+    margin: 4%;
+    padding: 1%;
+
+}
+    .half-side img {
+    width: 100%;
+    height: 100%;
+}
+section {
+    height: 500px;
+}
+.half-side a {
+    text-decoration: none;
+    background: linear-gradient(45deg,#e84393, #FC427B);
+    padding: 8px 18px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 700;
+}
+.half-side a:hover {
+    color: #f1f1f1;
+    padding-bottom: 15px;
+}
+    .header-bg {
+        background-image: url("images/header-bg.png");
+        background-repeat: no-repeat;
+    }
+    .biography-bg {
+        background-image: url("images/biography-bg.png");
+        background-repeat: no-repeat;
+    }
