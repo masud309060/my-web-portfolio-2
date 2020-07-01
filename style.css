@@ -9,7 +9,12 @@
 }
     h1 {
     font-size: 40px;
+    font-weight: 400;
 }
+    h2 {
+    font-size: 35px;
+    font-weight: 700;
+    }
     p {
     color: #2d3436;
 }
@@ -25,7 +30,7 @@
     height: 100%;
 }
 section {
-    height: 500px;
+    height: 750px;
 }
 .half-side a {
     text-decoration: none;
@@ -46,4 +51,45 @@ section {
     .biography-bg {
         background-image: url("images/biography-bg.png");
         background-repeat: no-repeat;
+    }
+    .my-work{
+        text-align: center;
+    }
+    .work-list {
+        width: 30%;
+        float: left;
+        margin: 1%;
+    }
+    .work-list img {
+        width: 100%;
+    }
+    .bottom-side {
+        text-align: center;
+        align-items: center;
+        background-image: url(images/footer-bg.png);
+        background-repeat: no-repeat;
+    }
+    .client {
+        padding: 20px 0;
+    }
+    .client-comment p {
+        padding: 20px 50px;
+        font-size: 18px;
+        color: black;
+        margin: 5% 20%;
+    }
+    .contact {
+        background: linear-gradient(45deg,#e84393, #FC427B);
+        color: white;
+        padding: 20px 0;
+        border-radius: 8px;
+        margin: 5% 20%;
+    }
+    .contact p {
+        color: #f1f1f1;
+    }
+    footer {
+        text-align: center;
+        color: darkslategrey;
+        padding-bottom: 50px;
     }
